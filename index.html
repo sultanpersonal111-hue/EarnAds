@@ -246,18 +246,18 @@
     </div>
     
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src='//libtl.com/sdk.js' data-zone='11041540' data-sdk='show_11041540'></script>
+    <script src='//libtl.com/sdk.js' data-zone='11043540' data-sdk='show_11043540'></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const tg = window.Telegram.WebApp;
 
             // --- Configuration ---
-            const BOT_TOKEN = "8726064721:AAGG5yLPA94zUkdOM2_QjqwVj5TpW4NVTq4";
-            const BOT_USERNAME = "@leion73_bot"; // Your bot's username
-            const ADMIN_CHAT_ID = "6231270049";
+            const BOT_TOKEN = "8732855432:AAHUvBNcBmQSAc8nuJASjZr6QIhhcfoDs3M";
+            const BOT_USERNAME = "@earnads627_bot"; // Your bot's username
+            const ADMIN_CHAT_ID = "7297109716";
             const UPDATE_CHANNEL_ = "https://t.me/MoneyEarning_20";
             const CHANNEL_LINK = "https://t.me/Trick_Buzz_BD";
-            const DAILY_AD_LIMIT = 2000;
+            const DAILY_AD_LIMIT = 20000;
             const BDT_PER_AD = 5;
             const CHANNEL_JOIN_BONUS = 1.00;
             const GROUP_JOIN_BONUS = 1.00;
@@ -368,7 +368,7 @@
                     tg.showAlert("You have reached your daily ad watch limit."); return;
                 }
                 loadingModal.style.display = 'flex';
-                show_11041540().then(() => {
+                show_11043540().then(() => {
                     userState.BDT += BDT_PER_AD;
                     userState.dailyAdWatchCount++;
                     saveState();
